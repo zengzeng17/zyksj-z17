@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.npmrc
+credentials*
+auth-store.json
+config.local.*
+
+# Research data and local deliverables
+raw/
+cases/
+investigations/
+output/
+tmp/
+.private/
+*.log
+*.jsonl
+
+# Generated/runtime files
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
