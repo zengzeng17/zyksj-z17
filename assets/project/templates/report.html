@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>$title · 向外看</title>
+  <style>$css</style>
+</head>
+<body class="$page_class">
+<a class="skip" href="#content">跳到正文</a>
+<div class="shell">
+  <main id="content">
+    <header class="hero"><p class="eyebrow">$eyebrow</p><h1>$title</h1><p class="subtitle">$subtitle</p>$meta</header>
+    <aside class="rail"><p class="wordmark">目录<span>点击跳转至分析或证据附录</span></p><nav aria-label="报告目录">$nav</nav></aside>
+    $body
+    <footer>向外看 · $footer<br>重要判断以所列来源与观察范围为界。自动结构检查不代替事实核验。</footer>
+  </main>
+</div>
+<script>function revealHash(){var e=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!e)return;for(var p=e;p;p=p.parentElement){if(p.tagName==="DETAILS")p.open=true;}setTimeout(function(){e.scrollIntoView({block:"start"});},0);}window.addEventListener("hashchange",revealHash);if(location.hash)revealHash();document.querySelectorAll('.demo video').forEach(function(v){v.addEventListener('error',function(){v.closest('figure').querySelector('.demo-error').hidden=false;});var source=v.querySelector('source');if(source)source.addEventListener('error',function(){v.closest('figure').querySelector('.demo-error').hidden=false;});});</script>
+</body>
+</html>
