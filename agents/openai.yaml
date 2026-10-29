@@ -1,0 +1,4 @@
+interface:
+  display_name: "zyksj-z17"
+  short_description: "传播向外看：单一主线、意图设计执行三层、具体demo与数据证据"
+  default_prompt: "用 $zyksj-z17 复盘这个事件，围绕一条主线讲清目的、传播KM、竞争对象及实际传播效果与偏差。"
