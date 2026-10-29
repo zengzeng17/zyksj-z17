@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "",
+  "title": "",
+  "subtitle": "",
+  "status": "researching",
+  "revision": "v1",
+  "as_of": "",
+  "scope": {
+    "object": "",
+    "question": "",
+    "window": "",
+    "timezone": "Asia/Shanghai",
+    "coverage": "",
+    "limitations": ""
+  },
+  "summary_claim_ids": [],
+  "sources": [],
+  "claims": [],
+  "timeline": [],
+  "sections": [],
+  "metrics": [],
+  "lessons": [],
+  "gaps": [],
+  "change_note": "首版",
+  "reading_mode": "focused",
+  "timeline_placement": "appendix",
+  "evidence_display": "collapsed",
+  "citation_style": "named",
+  "summary_title": "本次传播的主线"
+}
